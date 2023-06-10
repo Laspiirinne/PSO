@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T03:13:19.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="6kJTVhMnOKPukOwJl2wo" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T03:35:58.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="e0ORkNJd0hQ_qDvcbUux" version="21.3.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1831" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-12" value="new ConditionEvaluator&lt;br&gt;@Condition注解解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-11">
+        <mxCell id="hCjVSl2V77esxhgFQinN-12" value="&lt;b&gt;new ConditionEvaluator：&lt;br&gt;&lt;/b&gt;@Condition注解解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-11">
           <mxGeometry x="42.5" y="300" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="hCjVSl2V77esxhgFQinN-8" target="hCjVSl2V77esxhgFQinN-12">
@@ -53,8 +53,8 @@
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-26" value="registerAnnotationConfigProcessors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-25">
-          <mxGeometry x="21.25" y="370" width="207.5" height="50" as="geometry" />
+        <mxCell id="hCjVSl2V77esxhgFQinN-26" value="&lt;b&gt;registerAnnotationConfigProcessors&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-25">
+          <mxGeometry x="10" y="370" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
