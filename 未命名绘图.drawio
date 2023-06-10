@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T08:28:47.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="kTgN58WCsWNzNNCg-tUv" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T08:44:16.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="_B22k8jcHdTq-7VdjQ5X" version="21.3.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="985" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="&lt;strong style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;AnnotationConfigApplicationContext ctx = new A&lt;/font&gt;&lt;font style=&quot;&quot;&gt;nnotationConfigApplicationContext(MainConfig.class);&lt;/font&gt;&lt;/font&gt;&lt;/strong&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="1610" height="1000" as="geometry">
+          <mxGeometry x="10" y="10" width="1920" height="1160" as="geometry">
             <mxRectangle x="10" y="20" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="&lt;strong style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;AnnotationConfigApplicationContext&lt;/font&gt;&lt;/strong&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="270" height="980" as="geometry">
+          <mxGeometry y="20" width="270" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -23,11 +23,17 @@
         <mxCell id="hCjVSl2V77esxhgFQinN-44" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt;new ClassPathBeanDefinitionScanner(this);&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="10" y="490" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-49" value="&lt;b&gt;this.register(componentClasses);&lt;/b&gt;&lt;br&gt;new AA这个类时可以穿进配置类，这个方法的作用就是将配置类注册到容器中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="hCjVSl2V77esxhgFQinN-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="hCjVSl2V77esxhgFQinN-49" target="hCjVSl2V77esxhgFQinN-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCjVSl2V77esxhgFQinN-49" value="&lt;b&gt;this.register(componentClasses);&lt;/b&gt;&lt;br&gt;new AA这个类时可以传进配置类，这个方法的作用就是将配置类注册到容器中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="36.25" y="630" width="197.5" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hCjVSl2V77esxhgFQinN-61" value="&lt;b&gt;refresh&lt;/b&gt;&lt;b&gt;()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="52.5" y="720" width="165" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-4" value="GenericApplicationContext" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="270" y="20" width="230" height="980" as="geometry">
+          <mxGeometry x="270" y="20" width="230" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -35,7 +41,7 @@
           <mxGeometry x="42.5" y="150" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-11" value="AnnotatedBeanDefinitionReader" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="500" y="20" width="250" height="980" as="geometry">
+          <mxGeometry x="500" y="20" width="250" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -55,18 +61,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-25" value="AnnotationConfigUtils" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="750" y="20" width="260" height="980" as="geometry">
+          <mxGeometry x="750" y="20" width="260" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-26" value="&lt;b&gt;registerAnnotationConfigProcessors：&lt;/b&gt;&lt;br&gt;向&amp;nbsp;AnnotatedBeanDefinitionReader(容器)&lt;span style=&quot;background-color: initial;&quot;&gt;中注册一些内部 BeanPostProcessor 的 Bean 定义（比如ConfigurationClassPostProcessor，beanName 为internalConfigurationAnnotationProcessor）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-25">
+        <mxCell id="hCjVSl2V77esxhgFQinN-26" value="&lt;b&gt;registerAnnotationConfigProcessors：&lt;/b&gt;&lt;br&gt;向&amp;nbsp;AnnotatedBeanDefinitionReader(容器)&lt;span style=&quot;background-color: initial;&quot;&gt;中注册一些内部 BeanPostProcessor 的 Bean 定义（比如ConfigurationClassPostProcessor，是一个配置类解析器，beanName 为internalConfigurationAnnotationProcessor）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-25">
           <mxGeometry x="5" y="350" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="hCjVSl2V77esxhgFQinN-26" target="hCjVSl2V77esxhgFQinN-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-46" value="ClassPathBeanDefinitionScanner" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1010" y="20" width="250" height="980" as="geometry">
+          <mxGeometry x="1010" y="20" width="250" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -84,18 +90,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-53" value="AbstractApplicationContext" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1260" y="20" width="250" height="980" as="geometry">
+          <mxGeometry x="1260" y="20" width="250" height="1140" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-54" value="&lt;b&gt;initApplicationEventMulticaster()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;初始化事件广播器并放入容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
-          <mxGeometry x="10" y="780" width="230" height="30" as="geometry" />
+        <mxCell id="hCjVSl2V77esxhgFQinN-54" value="&lt;b&gt;initApplicationEventMulticaster()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;初始化事件广播器并放入容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="840" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-56" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;registerListeners()：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;注册事件监听器到多播器中，监听器需要实现 ApplicationListener 接口；如果有早期待处理的事件，调用多播器通知观察者（通过事件类型获取监听器，如果能异步发送，就异步调用listener.onApplicationEvent()，否则就同步调用这个方法）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
-          <mxGeometry x="10" y="870" width="230" height="100" as="geometry" />
+        <mxCell id="hCjVSl2V77esxhgFQinN-56" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;registerListeners()：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;注册事件监听器到多播器中，监听器需要实现 ApplicationListener 接口；如果有早期待处理的事件，调用多播器通知观察者（通过事件类型获取监听器，如果能异步发送，就异步调用listener.onApplicationEvent()，否则就同步调用这个方法）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="930" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-60" value="&lt;b&gt;invokeBeanFactoryPostProcessors&lt;/b&gt;&lt;b&gt;()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
-          <mxGeometry x="10" y="700" width="230" height="30" as="geometry" />
+        <mxCell id="hCjVSl2V77esxhgFQinN-60" value="&lt;b&gt;invokeBeanFactoryPostProcessors&lt;/b&gt;&lt;b&gt;()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="760" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
