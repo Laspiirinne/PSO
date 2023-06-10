@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T07:44:09.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="voPiDLimmE2uN1fCtXg-" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T07:47:20.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="3c8mNQ3jeOi2NS7WNaYd" version="21.3.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="985" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCjVSl2V77esxhgFQinN-54" value="&lt;b&gt;initApplicationEventMulticaster()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;初始化时间广播器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
+        <mxCell id="hCjVSl2V77esxhgFQinN-54" value="&lt;b&gt;initApplicationEventMulticaster()&lt;/b&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;：&lt;br&gt;&lt;/span&gt;初始化事件广播器并放入容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
           <mxGeometry x="10" y="640" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hCjVSl2V77esxhgFQinN-56" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;registerListeners()：&lt;/b&gt;&lt;br&gt;&lt;/span&gt;注册事件监听器，监听器需要实现 ApplicationListener 接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hCjVSl2V77esxhgFQinN-53">
